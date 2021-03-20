@@ -31,14 +31,14 @@ module.exports = {
         ignore: ["README.*"],
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/data/findings/findings.json`,
-        name: `findings`,
-        ignore: ["README.*"],
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/data/findings/findings.json`,
+    //     name: `findings`,
+    //     ignore: ["README.*"],
+    //   },
+    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
